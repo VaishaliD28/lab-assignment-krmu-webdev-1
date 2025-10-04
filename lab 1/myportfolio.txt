@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <center><h1>WELCOME TO MY PORTFOLIO</h1></center>
+    <h1>VAISHALI DOONGA</h1>
+    <a href="#projects">Go to My Projects</a>
+    <br>
+    <a href="#skills">Technical Skills</a>
+    <br>
+    <a href="#Contact">Contact Me</a>
+    <br>
+    <p>Hello! I am a web development student. This is my simple portfolio page.</p>
+
+    <h2>About Me</h2>
+    <img src="E:\Vaishali\doc\My image.jpg" alt="My Photo" width="150" height="150">
+    <p>I like learning web development and creating small projects using HTML and CSS.</p>
+
+    <h2 id="projects">My Projects</h2>
+    <ul>
+        <li>Portfolio Website: A personal one page website to showcase your bio, skills, and contact details. </li>
+        <li>Calculator Layout: A simple calculator design created with HTML and CSS.</li>
+        <li>Car Webpage: A simple webpage showcasing a car’s image, features, and specifications. </li>
+        <li>Contact Form: A form where users can enter their details and message.</li>
+    </ul>
+
+    <h2 id="skills">Technical Skills</h2>
+    <p>HTML - Beginner</p>
+    <p>CSS - Beginner</p>
+    <p>JavaScript - Learning</p>
+    
+    <h2 id="Contact">Contact Me</h2>
+    <form>
+        Name: <input type="text" placeholder="Enter your name"><br><br>
+        Email: <input type="email" placeholder="Enter your email"><br><br>
+        Message: <br>
+        <textarea rows="4" cols="30" placeholder="Enter your message"></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>
