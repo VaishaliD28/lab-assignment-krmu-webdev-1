@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <h1>WELCOME TO MY PORTFOLIO</h1>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="E:\Vaishali\assigns\web dev\portfolio-project\My image.jpg" alt="My image" width="150" height="150">
+    <p>Hello! My name is Vaishali Doonga, I am a web development student. This is my portfolio page.</p>
+  </section>
+
+  <section id="projects">
+    <h3>My Projects</h3>
+    <div class="box">
+      <b>Project 1</b>
+      <p>Portfolio Website: A personal one page website to showcase your bio, skills, and contact details. </p>
+    </div>
+    <div class="box">
+      <b>Project 2</b>
+      <p>Calculator Layout: A simple calculator design created with HTML and CSS.</p>
+    </div>
+    <div class="box">
+      <b>Project 3</b>
+      <p>Car Webpage: A simple webpage showcasing a car’s image, features, and specifications.</p>
+    </div>
+    <div class="box">
+      <b>Project 4</b>
+      <p>Contact Form: A form where users can enter their details and message.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <table>
+      <tr><th>Skill</th><th>Level</th></tr>
+      <tr><td>HTML</td><td>Beginner</td></tr>
+      <tr><td>CSS</td><td>Beginner</td></tr>
+      <tr><td>JavaScript</td><td>Learning</td></tr>
+    </table>
+  </section>
+
+  <section id="contact">
+  <h3>Contact Me</h3>
+
+  <table class="contactTable">
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" placeholder="Enter your name"></td>
+    </tr>
+
+    <tr>
+      <td>Email:</td>
+      <td><input type="email" placeholder="Enter your email"></td>
+    </tr>
+
+    <tr>
+      <td>Message:</td>
+      <td><textarea placeholder="Write your message"></textarea></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" style="text-align:center;">
+        <button>Send</button>
+      </td>
+    </tr>
+    
+  </table>
+</section>  
+<button class="backToTop" onclick="location.href='#top'">Back to Top</button>
+</section>
+</body>
+</html>

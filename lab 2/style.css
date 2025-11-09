@@ -1,0 +1,137 @@
+<style>
+h1{
+  text-align: center;
+}
+body {
+    text-align:center;
+    margin: 0;
+    font-family: Arial;
+    background: #eee;
+}
+
+
+
+nav {
+    text-align:center;
+    background: #005bbb;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    text-align:center;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+section {
+    text-align:center;
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-family: Arial; 
+}
+
+
+.photo {
+    text-align:center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #cce0ff;
+    margin: auto;
+}
+
+
+table {
+    text-align:center;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+    font-family: Arial; 
+}
+
+th,
+td {
+    text-align:center;
+    border: 1px solid #000;
+    padding: 6px;
+    font-family: Arial; 
+}
+
+th {
+    text-align:center;
+    background: #005bbb;
+    color: white;
+    font-family: Arial; 
+}
+
+
+.box {
+    text-align:center;
+    border: 1px solid #ddd;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    background: #fff;
+    font-family: Arial; 
+}
+
+input,
+textarea {
+    text-align:center;
+    width: 90%;
+    padding: 6px;
+    border: 1px solid #777;
+    margin: 5px;
+    font-family: Arial; 
+}
+
+button {
+    text-align:right;
+    background: #005bbb;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+</style><style>body {
+    text-align:center;
+    font-family: Arial;
+}
+
+nav a {
+    text-align:center;
+    margin: 5px;
+    text-decoration: none;
+}
+
+section {
+    text-align:center;
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    text-align:center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.backToTop {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+
+</style>
