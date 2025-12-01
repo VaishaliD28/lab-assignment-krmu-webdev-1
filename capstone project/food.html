@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZaykaaHub - Food Delivery App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+
+<header class="header">
+    <div class="logo">ZaykaaHub</div>
+
+    <nav class="nav">
+        <a href="#hero">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#menu">Menu</a>
+        <a href="#brands">Brands</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="search-wrap" role="search" aria-label="Search menu">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M21 21l-4.35-4.35" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="11" r="6" stroke="#666" stroke-width="2"/></svg>
+    <input id="searchInput" type="search" placeholder="Search dishes or categories..." aria-label="Search dishes or categories">
+    <button id="clearSearch" title="Clear">✕</button>
+  </div>
+</header>
+
+
+<section id="hero" class="hero">
+    <div class="hero-text">
+        <h1>Fast & Fresh <span class="highlight">Food Delivery</span></h1>
+        <p>Order delicious meals delivered hot and fresh from top restaurants.</p>
+        <a href="#menu" class="btn">Order Now</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="E:\Vaishali\assigns\web dev\website\fastfood.jpg" alt="fastfood">
+    </div>
+</section>
+
+<main id="main-content">
+
+    <section aria-labelledby="offers-heading">
+    <h3 id="offers-heading" class="section-title">Today's Promo Offers 🔥 </h3>
+    <div class="offers" id="offers">
+      <div class="offer active" data-filter="all">All Offers</div>
+      <div class="offer" data-filter="top20">20% OFF</div>
+      <div class="offer" data-filter="buy1get1">Buy 1 Get 1</div>
+      <div class="offer" data-filter="free-delivery">Free Delivery</div>
+    </div>
+  </section>
+
+
+<section id="categories" class="section">
+    <h2 class="section-title">Food Categories</h2>
+
+    <div class="category-grid">
+        <a href="#pizza-section" class="category-card">🍕 Pizza</a>
+        <a href="#burger-section" class="category-card">🍔 Burgers</a>
+        <a href="#noodle-section" class="category-card">🍜 Noodles</a>
+        <a href="#healthy-section" class="category-card">🥗 Healthy</a>
+        <a href="#snack-section" class="category-card">🍟 Snacks</a>
+        <a href="#dessert-section" class="category-card">🧁 Dessert</a>
+    </div>
+</section>
+
+
+<section id="menu" class="section">
+    <h2 class="section-title">Popular Menu Items</h2>
+</section>
+
+
+<section id="pizza-section" class="section">
+    <h2 class="section-title">🍕 Pizza</h2>
+
+    <div class="menu-grid">
+        <article class="menu-card">
+            <img src="https://imgs.search.brave.com/xhoDrbolRhL6o-FsRNSN4NOAIroxsYqe-F12wTfqWUc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDUx/ODY1OTcxL3Bob3Rv/L21hcmdoZXJpdGEt/cGl6emEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVZaMC1l/a0s2NmJubmI2aHR4/ZHZTOVJWWHlKWXlf/WW1YYll5Y1RackI5/MW89" alt="margherita pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Classic cheese & basil.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://imgs.search.brave.com/rVMVDzfDpBH4vwWfvdLx1wYRumxFIOZ7SmXuNAuR4uw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjIv/OTk0LzAzNi9zbWFs/bC90aGUtcGVwcGVy/b25pLXBpenphLWFu/ZC1hLXBpZWNlLW9m/LXN0cmVjaGVkLWNo/ZWVzZS1waXp6YS13/aXRoLWFpLWdlbmVy/YXRlZC1mcmVlLXBo/b3RvLmpwZw" alt="Pepperoni">
+            <h3>Pepperoni Pizza</h3>
+            <p>Loaded with crispy pepperoni.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://imgs.search.brave.com/KmIIi0ainRD9NgW5Byblm3gdhvx06Xa0wj2vj0HCxLQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/Z2hhemlhYmFkL3E5/LzAxMXB4eDExLnh4/MTEuMjMwOTA1MTgy/MDI2Lmw4cTkvY2F0/YWxvZ3VlL3RoZS1m/YXJtaG91c2UtcGl6/emEtZ2hhemlhYmFk/LWZhc3QtZm9vZC1s/cWp3M3FpeXB0Lmpw/Zz93PTM4NDAmcT03/NQ" alt="Farmhouse">
+            <h3>Farmhouse</h3>
+            <p>Smoky grilled flavor.</p>
+        </article>
+    </div>
+</section>
+
+<section id="burger-section" class="section">
+    <h2 class="section-title">🍔 Burgers</h2>
+
+    <div class="menu-grid">
+        <article class="menu-card">
+            <img src="https://mccormick.widen.net/content/mrqnc4vbjy/original/frenchs_burger_styled-image_800x800.png" alt="Burger">
+            <h3>Classic Burger</h3>
+            <p>Juicy with fresh toppings.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://images.slurrp.com/prod/recipe_images/transcribe/snack/Vegetable-Burger.webp" alt="Veg Burger">
+            <h3>Veggie Delight Burger</h3>
+            <p>Healthy & crispy veg patty.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://i.pinimg.com/736x/75/bb/bb/75bbbb36ed0002e96dcca2475ec48664.jpg" alt="Cheese Burger">
+            <h3>Cheese Burst Burger</h3>
+            <p>Overflowing melted cheese.</p>
+        </article>
+    </div>
+</section>
+
+
+<section id="noodle-section" class="section">
+    <h2 class="section-title">🍜 Noodles</h2>
+
+    <div class="menu-grid">
+        <article class="menu-card">
+            <img src="https://www.mayakaimal.com/wp-content/uploads/2023/09/MayaKaimal_091823_CrackNoodles_WEBSITE_31735-scaled.jpg" alt="Spicy Noodles">
+            <h3>Spicy Noodles</h3>
+            <p>Hot & flavorful.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/hakka-noodles-recipe.jpg" alt="Hakka">
+            <h3>Hakka Noodles</h3>
+            <p>Indo-Chinese style.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://mrprabhu.in/uploads/products/305--1736762167.jpg" alt="Schezwan">
+            <h3>Schezwan Noodles</h3>
+            <p>Extra spicy.</p>
+        </article>
+    </div>
+</section>
+
+
+<section id="snack-section" class="section">
+    <h2 class="section-title">🍟 Snacks</h2>
+
+    <div class="menu-grid">
+        <article class="menu-card">
+            <img src="https://www.hindustantimes.com/ht-img/img/2025/07/11/1600x900/french_fries_1752214461274_1752214461432.jpg" alt="Fries">
+            <h3>French Fries</h3>
+            <p>Crispy golden fries.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://recipesblob.oetker.in/assets/b72049329c8742b98daf790c9ef937bd/1272x764/loaded-nachos.webp" alt="Nachos">
+            <h3>Loaded Nachos</h3>
+            <p>Cheese & jalapenos.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://foodtrails25.com/wp-content/uploads/2020/05/parcels.jpg" alt="Paneer Parcel">
+            <h3>Paneer Parcel</h3>
+            <p>Hot & spicy parcel.</p>
+        </article>
+    </div>
+</section>
+
+
+<section id="dessert-section" class="section">
+    <h2 class="section-title">🧁 Dessert</h2>
+
+    <div class="menu-grid">
+        <article class="menu-card">
+            <img src="https://www.pillsbury.in/wp-content/uploads/2022/12/Choco-Lava-Body-Image-1.jpg" alt="Chocolava">
+            <h3>Chocolava</h3>
+            <p>Molten lava inside.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://feenix.co.in/wp-content/uploads/2018/02/b4a4b591-e9ff-11ef-8906-7c10c91d5340.webp" alt="Butterscotch Mousse Cake">
+            <h3>Butterscotch Mousse Cake</h3>
+            <p>Butterscotch flavoured mousse.</p>
+        </article>
+
+        <article class="menu-card">
+            <img src="https://i.ytimg.com/vi/VxNr7DXEBdQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLANx8YfRJaQ1JYFkqJn0axCx_p_nw" alt="Red Velvet Lava Cake">
+            <h3>Red Velvet Lava Cake</h3>
+            <p>Creamy classic.</p>
+        </article>
+    </div>
+</section>
+
+
+<section id="brands" class="section">
+    <h2 class="section-title">Top Brands</h2>
+
+    <div class="brand-grid">
+        <article class="rest-card"> McDonald's</article>
+        <article class="rest-card"> Burger King</article>
+        <article class="rest-card"> KFC</article>
+        <article class="rest-card"> Haldiram's</article>
+    </div>
+</section>
+
+
+<section id="location" class="section">
+    <h2 class="section-title">📍 Delivery Locations</h2>
+
+    <div class="location-box">
+        <input type="text" placeholder="Search your city...">
+
+        <ul class="location-list">
+            <li>Mumbai</li>
+            <li>Delhi</li>
+            <li>Bengaluru</li>
+            <li>Hyderabad</li>
+            <li>Pune</li>
+            <li>Chennai</li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="contact" class="section">
+    <h2 class="section-title">Contact Us</h2>
+
+    <form class="contact-form">
+        <label>Name</label>
+        <input type="text" placeholder="Your Name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Your Email" required>
+
+        <label>Message</label>
+        <textarea placeholder="Your Message" required></textarea>
+
+        <button class="btn">Send Message</button>
+    </form>
+</section>
+
+</main>
+
+<a href="#hero" class="back-to-top">↑</a>
+
+<footer class="footer">
+    <p>© 2025 ZaykaaHub | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
